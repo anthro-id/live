@@ -1,0 +1,17 @@
+:root {
+  --expoOut: cubic-bezier(0.16, 1, 0.3, 1);
+  user-select: none;
+}
+
+html, body {
+  background: transparent;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'General Sans';
+  src: url('/fonts/gsansvariable.woff2') format('woff2');
+  font-weight: 200 700;
+  font-display: swap;
+  font-style: normal;
+}

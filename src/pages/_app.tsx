@@ -3,6 +3,7 @@ import type { AppProps } from "next/app";
 import { MantineProvider, createTheme } from "@mantine/core";
 import "@mantine/core/styles.css";
 
+import "@/styles/root.css";
 
 const theme = createTheme({
   fontFamily: "'General Sans'"
